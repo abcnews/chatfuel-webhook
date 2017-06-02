@@ -32,10 +32,10 @@ they will be printed accordingly. Some notes:
 
 1. Send through all the default (blue) ChatFuel variables. These are used to
    format the user's name, profile pic etc. For a list, see [chatfuel.js](lib/chatfuel.js).
-2. Send through any custom (blue) variables you wish to appear. If you don't
+2. Send through any custom (yellow) variables you wish to appear. If you don't
    send any, the hook will send the user's last entered text.
 
-> ℹ Chatfuel can only send the user's last entered _text_ in the default answer
+>  Chatfuel can only send the user's last entered _text_ in the default answer
 > block. If you wish to capture images, locations, or stickers you should use a
 > _User input_ card.
 
