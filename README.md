@@ -24,6 +24,7 @@ The following variables may be configured:
 Variable name | Description         
 --------------|---------------------
 SLACK_WEBHOOK_x | Full slack webhook url. Replace `x` with the channel name. Corresponds to slackChannel in the query params. [Generate a webhook from Slack](https://my.slack.com/services/new/incoming-webhook/)
+DASHBOT_USERID  | Optional userId to link to the user's session (with history) in Dashbot. This is the number is in your Dashbot dashboard url, eg. `https://www.dashbot.io/reports/1234`
 
 Chatfuel variables
 ------------------
